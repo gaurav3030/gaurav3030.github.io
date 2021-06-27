@@ -1,3 +1,13 @@
+function scrolltohome(){
+    document.querySelector('.intro').scrollIntoView({ 
+        behavior: 'smooth' 
+      });
+}
+function scrolltoproject(){
+    document.querySelector('.projectspage').scrollIntoView({ 
+        behavior: 'smooth' 
+      });
+}
 
 
 function myFunction() {
