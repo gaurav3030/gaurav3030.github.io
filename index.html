@@ -41,28 +41,29 @@
                 <img src="icons8-nodejs.svg" alt="">
             </div>
         </div>
-        <div class="projectspage">
 
+
+
+
+
+
+
+
+
+
+
+
+        <div class="projectspage">
+            <div class="projectbg"></div>
+            <div class="projectlist">
+                <div class="projectcard"></div>
+            </div>
+            
         </div>
     </div>
-    <script>
+    <script src="index.js">
 
-function myFunction() {
-  var elmnt = document.getElementById("myDIV");
-  var x = elmnt.scrollLeft;
-  var y = elmnt.scrollTop;
 
-  if(y<200){
-    document.getElementsByClassName("logo")[0].style.color ="#0e3afd";
-    document.getElementsByClassName("navlink")[0].classList.add("navactive");
-    document.getElementsByClassName("navlink")[1].classList.remove("navactiveprojects");
-  }
-  if(y>900){
-    document.getElementsByClassName("logo")[0].style.color ="#fff";
-    document.getElementsByClassName("navlink")[0].classList.remove("navactive");
-    document.getElementsByClassName("navlink")[1].classList.add("navactiveprojects");
-  }
-}
 
         
 

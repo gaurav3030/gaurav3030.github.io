@@ -4,6 +4,7 @@ body{
     height: 100vh;
     width: 100%;
     overflow: hidden;
+    background-color: rgb(14, 58, 253);
 }
 a{
     text-decoration: none;
@@ -87,6 +88,8 @@ a{
     width: 100%;
     background-color: rgb(14, 58, 253);
     scroll-snap-align: end;
+    position: relative;
+
     
 }
 
@@ -162,4 +165,30 @@ a{
     color: rgb(14, 58, 253);
 }
 
+.projectlist{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.projectcard{
+    height: 50vh;
+    width: 30%;
+    background-color: white;
+}
+.projectbg{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 100vh solid rgb(22, 22, 22);
+    border-left: 100vw solid transparent;
+    background: transparent;
 
+
+}
