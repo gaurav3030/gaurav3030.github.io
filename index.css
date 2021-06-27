@@ -279,14 +279,67 @@ a{
         transition: 0.3s;
         background-color: rgb(10, 10, 10);
     }
+    .techstack{
+        align-items: flex-start;
+    }
   }
 
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 600px) {
     .projectcard {
       height: 80vw;
       width: 80vw;
       min-width: 79vw;
     }
+    .greet{
+        font-size: 8vw;
+    }
+    .subgreet{
+        font-size: 5vw;
+    }
+    .photo img{
+        width: 30vw;
+
+    }
+   
+    .socialmedia{
+        height: 60px;
+        font-size: 30px;
+    }
+    .techstack{
+        height: 15vh;
+        width: 80%;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        position: absolute;
+        bottom: 5vh;
+    }
+    .techstack img{
+        width: 70px;
+    }
+
 
   }
+  @media only screen and (max-width: 500px) {
+    .introcontent{
+        flex-direction: column;
+        height: 75vh;
+        position: absolute;
+        top: 5vh;
+    }
+    .photo img{
+        width:  60vw;
+    }
+    .description{
+        width: 70vw;
+        padding-left: 0;
+    }
+    .projectcard {
+        height: 100vw;
+        width: 80vw;
+        min-width: 79vw;
+      }
+  }
+
 
